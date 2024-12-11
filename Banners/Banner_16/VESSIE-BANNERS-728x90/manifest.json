@@ -1,0 +1,16 @@
+{
+    "version": "1.0",
+
+    "title": "728x90",
+    "description": "",
+
+    "width" : "728",
+    "height": "90",
+
+    "clicktags": {
+        "clickTAG": "http://base-donnees-publique.medicaments.gouv.fr/",
+        "clickTAG2": "https://www.has-sante.fr"
+    },
+
+    "source": "index.html"
+}
