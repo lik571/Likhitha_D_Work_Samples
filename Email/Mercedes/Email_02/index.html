@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Mercedes - A Responsive Email Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        /* Prevent WebKit and Windows mobile changing default text sizes */x
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        /* Remove spacing between tables in Outlook 2007 and up */
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* Allow smoother rendering of resized image in Internet Explorer */
+
+        /* RESET STYLES */
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+        @media screen {
+
+                @font-face {
+                    font-family: 'MBCorpoATitle-Regular';
+                    font-display: swap;
+                    mso-generic-font-family: swiss;
+                    src: url("https://s0.2mdn.net/creatives/assets/4431188/MBCorpoATitle-Regular.woff") format('woff'),
+                     url("https://s0.2mdn.net/creatives/assets/4431188/MBCorpoATitle-Regular.ttf") format('ttf');
+                     font-weight: normal;
+                    font-style: normal;
+                }
+                @font-face {
+                    font-family: 'MBCorpoSText-Regular';
+                    font-display: swap;
+                    mso-generic-font-family: swiss;
+                    src: url("https://s0.2mdn.net/creatives/assets/4431188/MBCorpoSText-Regular.woff") format('woff'),
+                     url("https://s0.2mdn.net/creatives/assets/4431188/MBCorpoSText-Regular.ttf") format('ttf');
+                     font-weight: normal;
+                    font-style: normal;
+                }
+
+        }
+
+        /* MOBILE STYLES */
+
+        @media screen and (max-width: 639px) {
+.paddingTopLine  {
+                height: 20px !important;
+            }
+
+            .wrapper2ColFull {
+                width: 100% !important;
+                max-width: 100% !important;
+                padding-bottom: 20px !important;
+            }
+
+            .resizepadding2 {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .img-Header  {
+                max-width: 640px !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .img-max2Col  {
+                max-width: 500px !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .noPadding {
+                padding-left: 0px !important;
+                padding-right: 0px !important;
+            }
+
+            .padBlockBlanc {
+                padding-bottom: 0px !important;
+                height: auto !important;
+            }
+
+        }
+
+
+        @media screen and (max-width: 580px) {
+
+            .img-maxOffres {
+                width: 100% !important;
+                max-width: 540px !important;
+            }
+
+
+            .wrapperOffres {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            .resizepadding {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+            .resizepadding_01 {
+                padding-left: 30px !important;
+                padding-right: 30px !important;
+            }
+
+            .paddingLeftNo {
+                padding-left:0 !important;
+            }
+
+        }
+
+
+
+        @media screen and (max-width: 525px) {
+
+            .paddBtm30 {
+                padding-bottom: 30px !important;
+            }
+
+            .hideMobile {
+                display: none !important;
+            }
+
+            .txtAlignCenter {
+                text-align: center !important;
+            }
+
+
+            .hide_on_mobile,
+            img.hide_on_mobile {
+                display: none !important;
+                height: 0 !important;
+                text-indent: -9999px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .hide_on_mobile img {
+                display: none;
+                height: 0;
+                text-indent: -9999px;
+            }
+
+            .show_on_mobile {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-width: 530px !important;
+            }
+
+            .imgMob {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-width: 530px !important;
+            }
+            .imgMob_01 {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-width: 200px !important;
+            }
+            .imgmobwidth{
+                display: block !important;
+                max-width: 274px !important;
+                margin: 0px auto !important;
+                text-align: center !important;
+            }
+           
+            .mob-paddleft0{
+                padding-left:0px !important;
+            }
+
+            .ResizeMobBtn {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                padding-bottom: 30px !important;
+            }
+
+
+
+            /* ALLOWS FOR FLUID TABLES */
+            .wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* ADJUSTS LAYOUT OF LOGO IMAGE */
+            .logo img {
+                margin: 0 auto !important;
+            }
+
+            /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .img-max {
+                max-width: 100% !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            /* FULL-WIDTH TABLES */
+            .responsive-table {
+                width: 100% !important;
+            }
+
+            /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+            .padding {
+                padding: 10px 5% 15px 5% !important;
+            }
+
+            .padding-meta {
+                padding: 30px 5% 0px 5% !important;
+                text-align: center;
+            }
+
+            .padding-copy {
+                padding: 10px 5% 10px 5% !important;
+                text-align: center;
+            }
+
+            .no-padding {
+                padding: 0 !important;
+            }
+
+            .section-padding {
+                padding: 50px 15px 50px 15px !important;
+            }
+
+            /* ADJUST BUTTONS ON MOBILE */
+            .mobile-button-container {
+                margin: 0 auto;
+                width: 100% !important;
+            }
+
+            .mobile-button {
+                padding: 15px !important;
+                border: 0 !important;
+                font-size: 16px !important;
+                display: block !important;
+            }
+
+        }
+
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+    </style>
+    <!--[if gte mso 12]>
+<style type="text/css">
+.mso-right {
+	padding-left: 20px;
+}
+</style>
+<![endif]-->
+</head>
+
+<body style="margin: 0 !important; padding: 0 !important;">
+
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <!-- HEADER -->
+        <tr>
+            <td bgcolor="#000000" align="center">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                    <tr>
+                        <td align="left" class="hideMobile" valign="top" style="padding-left:20px;padding-top:15px;padding-right:15px;padding-bottom:20px;padding-left:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666666;">
+                            <font color="#666666">Confirmez votre pr&eacute;sence.</font>
+                        </td>
+                        <td align="right" valign="top" class="txtAlignCenter" style="padding-top:15px;padding-right:20px;padding-bottom:20px;padding-left:15px;line-height:normal;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#666666;">
+                            <font color="#666666"><a href="#" target="_blank" style="color:#666666;text-decoration:underline;">
+                            <font color="#666666">Voir la version en ligne</font></a></font>
+                        </td>
+                    </tr>
+                </table>
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                    <tr>
+                        <td align="left" style="padding-left:20px;padding-bottom:20px;">
+                            <a href="#" target="_blank"><img src="tpl_header_logo_v2.png" width="66" height="64" alt="logo-Mercedes" border="0" style="display:block"></a>
+                        </td>
+                        <td align="right" style="padding-right:20px;padding-bottom:20px;">
+                            <a href="#" target="_blank"><img src="AMG_logo.png" width="124" height="16" alt="AMG_logo" border="0" style="display:block"></a>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+        </tr>
+        <!-- FIN HEADER -->
+        <!-- VISUEL -->
+        <tr>
+            <td bgcolor="#000000" align="center" style="padding: 0px 0px 0px 0px;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="responsive-table">
+                    <tr>
+                        <td valign="top" style="padding-bottom: 30px;">
+                            <!-- HERO IMAGE -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center">
+                                        <!-- desktop version -->
+                                        <p class="hide_on_mobile" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="Banner_Desktop.jpg" width="640" alt="LES EXP&Eacute;RIENCES MERCEDES-BENZ" style="display: block;" class="img-Header"></a>
+                                        </p>
+                                        <!-- mobile version -->
+                                        <p class="show_on_mobile" style="display:none;font-size:0;mso-line-height-rule:exactly;line-height:1;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="Banner_Mobile.jpg" alt="EXP&Eacute;RIENCES MERCEDES-BENZ" width="0" height="0" style="display: block;" class="imgMob"></a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top" style="padding-bottom:30px;padding-top:0px;padding-left:50px;padding-right:50px;line-height:32px;font-family:'MBCorpoATitle-Regular', Arial, Helvetica, sans-serif;font-size:26px;color:#ffffff; " class="resizepadding">
+                            Invitation.<br>
+                            Rendez-vous sur le <span style="color: #d204a9;">[Nom du Circuit]</span>.
+                        </td>
+                    </tr>
+                    <tr>
+                        <td valign="top" style="padding-bottom: 0px; padding-left: 50px; padding-top: 30px;" bgcolor="#000000" class="resizepadding" >
+                            <table  border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                <td align="left" valign="top" style="padding-bottom:30px;padding-top:0px;padding-left:60px;padding-right:60px;line-height:32px;font-family:'MBCorpoATitle-Regular', Arial, Helvetica, sans-serif;font-size:26px; border-top: #b21e23 8px solid;">
+                                </td>
+                            </tr>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="left" valign="top" style="padding-bottom:10px;padding-top:0px;padding-left:50px;padding-right:50px;line-height:25px;font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px;color:#ffffff; " class="resizepadding">
+                            <span style="color:#ff00ff;">[Monsieur/Madame Nom du Directeur]</span> et toute l&rsquo;&eacute;quipe de <span style="color:#ff00ff;">[nom du Distributeur]</span> ont l&rsquo;immense plaisir de vous offrir une journ&eacute;e inoubliable sur le circuit <span style="color:#ff00ff;">[Nom du Circuit]</span> le <span style="color:#ff00ff;">[date]</span> de <span style="color:#ff00ff;" >XX</span>h &agrave;</span> <span style="color:#ff00ff;" >XX</span>h. <br>
+                            <br>
+                            <ui  style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px;color:#ffffff;" >Au programme, 4&nbsp;ateliers immersifs&nbsp;: 
+                                <li>Pilotage de Mercedes-AMG sur circuit </li>
+                                <li>Technologies et innovations</li>
+                                <li>Escapade sur route</li>
+                                <li>Exp&eacute;rience art de vivre</li>
+                            </ui>
+                            <p style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px;color:#ffffff;">Pour confirmer votre pr&eacute;sence et en savoir plus sur le programme de votre journ&eacute;e, veuillez contacter <span style="color:#ff00ff;">[Nom du contact]</span> &agrave; l&rsquo;adresse suivante <span style="color:#ff00ff;">[adresse mail]</span> ou par t&eacute;l&eacute;phone au <span style="color:#ff00ff;">[num&eacute;ro de t&eacute;l&eacute;phone]</span>.</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" style="padding-bottom: 30px;  padding-top: 10px;" bgcolor="#000000"  width="550" style="width:550px;background-color: #000000;" class="mob-paddleft0">
+                            <table border="0" cellspacing="0" cellpadding="0" width="550" style="width:550px;background-color: #000000;" class="mob-paddleft0">
+                                <tr>
+                                  <td align="center" valign="top" width="550" style="width:550px;background-color: #000000; " class="imgmobwidth  paddBtm30">
+                                    <!-- LEFT -->
+                                    
+                                    <table align="center" class="flexible imgmobwidth" style="display:inline-table; border-collapse:collapse; width: 274px;" border="0" cellpadding="0" cellspacing="0" width="274" style="background-color: #000000;">
+                                      <tbody>
+                                        <tr>
+                                          <td bgcolor="#000000" align="center" valign="top" width="137" style="width: 137px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" width="137" style="width: 137px;">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="middle" align="center" width="137" style="font-size: 0px;line-height: 0px; padding-top: 16px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;" ><img src="Icon_01.png" width="80" height="" alt="Icon_01" name=" " border="0" style="display: block!important;font-size: 10px;line-height: 10px; width: 80px;"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px; line-height: 22px; color:#ffffff; text-decoration: none; -webkit-text-size-adjust: none; mso-line-height-rule:exactly;text-align: center;"><strong>Journ&eacute;e
+                                                    <br> du <span style="color:#ff00ff;">XX</span> 2024
+                                                  </strong></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                          <td bgcolor="#000000" align="center" valign="top" width="137" style="width: 137px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" width="137" style="background-color: #000000;width: 137px;">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="middle" align="center" width="137" style="font-size: 0px;line-height: 0px; padding-top: 16px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;"><img src="Icon_02.png" width="50" height="" alt="Icon_02" name=" " border="0" style="display: block!important;font-size: 10px;line-height: 10px; width: 50px;"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td  align="center" style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px; line-height: 22px;  color:#ffffff; text-decoration: none; -webkit-text-size-adjust: none; mso-line-height-rule:exactly;text-align: center;"><strong>Circuit <span style="color:#ff00ff;">de</span> 
+                                                    <br><span style="color:#ff00ff;">[Nom du Circuit]</span>
+                                                  </strong></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                     <!-- /RIGHT --> 
+                                   </td>
+                                   <td align="center" valign="top" width="550" style="width:550px;background-color: #000000; " class="imgmobwidth">
+                                    <!-- LEFT -->
+                                    
+                                    <table align="center" class="flexible imgmobwidth" style="display:inline-table; border-collapse:collapse; width: 274px;" border="0" cellpadding="0" cellspacing="0" width="274" style="background-color: #000000;">
+                                      <tbody>
+                                        <tr>
+                                          <td bgcolor="#000000" align="center" valign="top" width="137" style="width: 137px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="middle" align="center" width="137" style="font-size: 0px;line-height: 0px; padding-top: 16px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;" ><img src="Icon_03.png" width="82" height="" alt="Icon_03" name=" " border="0" style="display: block!important;font-size: 10px;line-height: 10px; width: 82px;"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td align="center" style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px; line-height: 22px;  color:#ffffff; text-decoration: none; -webkit-text-size-adjust: none; mso-line-height-rule:exactly;text-align: center;"><strong>Essais v&eacute;hicules
+                                                    <br>Mercedes-AMG
+                                                  </strong></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                          <td bgcolor="#000000" align="center" valign="top" width="137"style="width: 137px;">
+                                            <table width="100%" cellpadding="0" cellspacing="0" border="0" style="background-color: #000000;">
+                                              <tbody>
+                                                <tr>
+                                                  <td valign="middle" align="center" width="137" style="font-size: 0px;line-height: 0px; padding-top: 16px; padding-left: 10px; padding-right: 10px; padding-bottom: 10px;"><img src="Icon_04.png" width="62" height="" alt="Icon_04" name=" " border="0" style="display: block!important;font-size: 10px;line-height: 10px; width: 62px;"></td>
+                                                </tr>
+                                                <tr>
+                                                  <td  align="center" style="font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px; line-height: 22px; color:#ffffff; text-decoration: none; -webkit-text-size-adjust: none; mso-line-height-rule:exactly;text-align: center;"><strong>D&eacute;jeuner<br>inclus </span>
+                                                  </strong></td>
+                                                </tr>
+                                              </tbody>
+                                            </table></td>
+                                        </tr>
+                                      </tbody>
+                                    </table>
+                                     <!-- /RIGHT --> 
+                                   </td>
+                                </tr>
+
+
+                            </table>
+
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td align="center" valign="top" style="padding-bottom:10px;padding-top:10px;padding-left:50px;padding-right:50px;line-height:25px;font-family:'MBCorpoSText-Regular', Arial, Helvetica, sans-serif;font-size:14px;color:#ffffff; " class="resizepadding">
+                            <span style="color:#ff00ff;">[Logo Distributeur] <br>
+                                Nom du Distributeur<br>
+                                Adresse du Distributeur<br>
+                                Num&eacute;ro de t&eacute;l&eacute;phone.<br>
+                            </span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td align="center" valign="top" style="padding-bottom: 10px;">
+                            <!-- Logo IMAGE -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center">
+                                        <!-- desktop version -->
+                                        <p class="hide_on_mobile" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="logo_paddoc_Desktop.png" width="250" alt="PADDOCK" style="display: block; width: 250px;text-align: center;" class="img-Header"></a>
+                                        </p>
+                                        <!-- mobile version -->
+                                        <p class="show_on_mobile" style="display:none;font-size:0;mso-line-height-rule:exactly;line-height:1;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="logo_paddoc_mobile.png" alt="PADDOCK" width="0" height="0" style="display: block; text-align: center;" class="imgMob_01"></a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+        </tr>
+        <!-- FIN VISUEL -->
+                            
+          <!-- FOOTER -->
+        <tr>
+            <td bgcolor="#000000" align="center" style="padding: 10px 0px 0px 0;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="responsive-table">
+                    <tr>
+                        <td style="padding: 15px 20px 0 20px;">
+                            <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-left:auto;margin-right:auto;" bgcolor="#000000">
+                                <tbody>
+                                    <tr>
+                                        <td style="border-top:1px solid #5f5f5f; border-bottom:1px solid #5f5f5f;">
+                                            <table role="presentation" width="100%" border="0" align="center" cellpadding="0" cellspacing="0" style="border-collapse:collapse;margin-left:auto;margin-right:auto;" bgcolor="#000000">
+                                                <tbody>
+                                                    <tr>
+                                                        <td style="padding-top:20px;padding-bottom:20px;" align="center">
+                                                            <table role="presentation" border="0" cellpadding="0" cellspacing="0" style="border-collapse:collapse; margin-left:auto; margin-right:auto" align="center">
+                                                                <tbody>
+                                                                    <tr>
+                                                                        <td width="30" style="width:30px;"><a href="#" target="_blank"><img src="facebook.png" width="30" height="AUTO" alt="Facebook" border="0" style="display:block;"></a>
+                                                                        </td>
+                                                                        <td width="30" style="width:30px;">&nbsp;</td>
+                                                                        <td width="30" style="width:30px;"><a href="#" target="_blank"><img src="twitter.png" width="27" alt="Twitter" border="0" style="display:block;"></a>
+                                                                        </td>
+                                                                        <td width="30" style="width:30px;">&nbsp;</td>
+                                                                        <td width="30" style="width:30px;"><a href="#" target="_blank"><img src="instagram.png" width="24" alt="Instagram" border="0" style="display:block;"></a>
+                                                                        </td>
+                                                                        <td width="30" style="width:30px;">&nbsp;</td>
+                                                                        <td width="30" style="width:30px;"><a href="#" target="_blank"><img src="me.png" width="46"  alt="Me" border="0" style="display:block;"></a>
+                                                                        </td>
+                                                                        <td width="30" style="width:30px;">&nbsp;</td>
+                                                                        <td width="30" style="width:30px;"><a href="#" target="_blank"><img src="linkedin.png" width="27"  alt="Linkedin" border="0" style="display:block;"></a>
+                                                                        </td>
+                                                                    </tr>
+                                                                </tbody>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </tbody>
+                                            </table>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000000">
+                                <tr>
+                                    <td align="justify" valign="top" style="padding:25px 20px;vertical-align:top;line-height:18px;font-family: Arial, Helvetica, sans-serif;font-size:12px;color:#979797;text-align:justify;">
+
+                                        2024, <span style="color: #ff00ff">Nom du distributeur</span></p><br>
+<strong>Pensez à covoiturer. Au quotidien, prenez les transports en commun. Pour les trajets courts, privilégiez la marche ou le vélo. #SeDéplacerMoinsPolluer</strong>
+                                      <br />
+                                        <br />
+                                        <img src="footer_logo_mercedes-2.png" width="15" height="15" alt="logo-Mercedes" border="0">&nbsp;Mercedes-Benz France, SAS au capital de 75.516.000&nbsp;€.<span style="white-space: nowrap;"> SIREN</span> 622 044 287 R.C.S Versailles. Conformément aux dispositions de la loi <span style="white-space: nowrap;">« Informatique</span> et Libertés » n°78-17 du 6 janvier 1978 modifiée et du Règlement européen du 27 avril 2016 relatif à la protection des données des personnes physiques, vous bénéficiez du droit de vous opposer, à tout moment, au traitement des données à caractère personnel vous concernant ayant pour finalité la prospection y compris le profilage dans la mesure où il est lié à une telle prospection. Vous bénéficiez également de droits d'accès et de rectification de celles-ci, d'un droit à l'effacement et d'un droit à la portabilité de ces données, d'un droit à la limitation de leur traitement ainsi que du droit de définir des directives sur le sort, post mortem, de ces données.<br><br>
+
+
+                                        Vous pouvez exercer ces droits en vous adressant à <span style="color: #ff00ff">Nom du Distributeur</span> - Délégué à la Protection des Données&nbsp;- adresse postale du distributeur ou en transmettant votre demande à <span style="color: #ff00ff">adresse email du distributeur.</span>
+                                    </p>
+                                        <br>Pour ne plus recevoir d'informations de la part de Mercedes-Benz, vous pouvez vous désabonner <a href="#" target="_blank" style="text-decoration: underline; color: #979797;">ici</a>.
+                                </p><br><span style="color: #ff00ff;">RCS Distributeur</span>
+

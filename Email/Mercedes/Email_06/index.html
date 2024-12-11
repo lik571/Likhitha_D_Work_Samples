@@ -1,0 +1,2865 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="x-apple-disable-message-reformatting">
+		<meta name="format-detection" content="telephone=no,address=no,email=no,date=no,url=../no">
+		<meta name="color-scheme" content="light">
+		<meta name="supported-color-schemes" content="light">
+		<title></title>
+
+		
+
+<!-- CSS Fonts : BEGIN -->
+<!--[if mso]>
+<style>
+body, h1, h2, h3, h4, h5, p, ul, li {
+font-family: Arial, sans-serif !important;
+}
+</style>
+<![endif]-->
+
+<!--[if !mso]><!-->
+<style>
+	@font-face {
+		font-family:"MBCorpoS";
+		font-style:normal;
+		font-weight:300;
+		src:url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.eot);
+		src:local("MBCorpoS"), local("MBCorpo-S"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Light-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+	@font-face {
+		font-family:"MBCorpoS";
+		font-style:normal;
+		font-weight:400;
+		src:url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.eot);
+		src:local("MBCorpoS"), local("MBCorpo-S"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Regular-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+	@font-face {
+		font-family:"MBCorpoS";
+		font-style:normal;
+		font-weight:700;
+		src: url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.eot);
+		src: local("MBCorpoSText-Office"), local("MBCorpoS"), local("MBCorpo-S"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSText-Bold-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+	@font-face {
+		font-family:"MBCorpoA";
+		font-style:normal;
+		font-weight:400;
+		src: url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.eot);
+		src: local("MBCorpoATitleCond-Office"), local("MBCorpo-A"), local("MBCorpoA"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoATitleCond-Regular-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+	@font-face {
+		font-family:"MBCorpoSTitle";
+		font-style:normal;
+		font-weight:400;
+		src: url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.eot);
+		src: local("MBCorpoSTitle-Office"), local("MBCorpoSTitle"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Regular-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+	@font-face {
+		font-family:"MBCorpoSTitle";
+		font-style:normal;
+		font-weight:700;
+		src: url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.eot);
+		src: local("MBCorpoSTitle-Office"), local("MBCorpoSTitle"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.eot?#iefix) format("embedded-opentype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.woff2) format("woff2"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.woff) format("woff"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.ttf) format("truetype"),
+		url(https://html-toolbox.mercedes-benz.com/assets/files/fonts/MBCorpoSTitle-Bold-Web.svg) format("svg");
+		mso-font-alt:"Arial", "sans-serif";
+		mso-generic-font-family:"Arial";
+	}
+
+</style>
+<!--<![endif]-->
+
+<!-- CSS Fonts : End -->
+		
+
+<!-- CSS Reset : BEGIN -->
+
+<style>
+	:root {
+		color-scheme:light;
+		supported-color-schemes:light;
+	}
+
+	html,
+	body {
+		margin:0 auto !important;
+		padding:0 !important;
+		height:100% !important;
+		width:100% !important;
+	}
+
+	* {
+		-ms-text-size-adjust:100%;
+		-webkit-text-size-adjust:100%;
+	}
+
+	div[style*="margin: 16px 0"] {
+		margin:0 !important;
+	}
+
+	#MessageViewBody, #MessageWebViewDiv{
+		width:100% !important;
+	}
+
+	table,
+	td {
+		mso-table-lspace:0pt !important;
+		mso-table-rspace:0pt !important;
+	}
+
+	th {
+		font-weight:normal;
+		text-align:left;
+	}
+
+	table {
+		border-spacing:0 !important;
+		border-collapse:collapse !important;
+		table-layout:fixed !important;
+	}
+
+	a {
+		text-decoration:none;
+	}
+
+	img {
+		-ms-interpolation-mode:bicubic;
+	}
+
+	a[x-apple-data-detectors],
+	.unstyle-auto-detected-links a,
+	.aBn {
+		border-bottom:0 !important;
+		cursor:default !important;
+		color:inherit !important;
+		text-decoration:none !important;
+		font-size:inherit !important;
+		font-family:inherit !important;
+		font-weight:inherit !important;
+		line-height:inherit !important;
+	}
+
+	.im {
+		color:inherit !important;
+	}
+
+	.a6S {
+		display:none !important;
+		opacity:0.01 !important;
+	}
+
+	img.gImg + div {
+		display:none !important;
+	}
+
+	/* What it does: Removes right gutter in Gmail iOS app: https://github.com/TedGoas/Cerberus/issues/89 - Create one of these media queries for each additional viewport size you'd like to fix */
+
+	/* iPhone 4, 4S, 5, 5S, 5C, and 5SE */
+	@media only screen and (min-device-width: 320px) and (max-device-width: 374px) {
+		u ~ div .mbEmailContainer  {
+			min-width:320px !important;
+		}
+	}
+	/* iPhone 6, 6S, 7, 8, and X */
+	@media only screen and (min-device-width: 375px) and (max-device-width: 413px) {
+		u ~ div .mbEmailContainer  {
+			min-width:375px !important;
+		}
+	}
+	/* iPhone 6+, 7+, and 8+ */
+	@media only screen and (min-device-width: 414px) {
+		u ~ div .mbEmailContainer  {
+			min-width:414px !important;
+		}
+	}
+
+
+</style>
+<!-- CSS Reset - END -->
+		
+
+<!-- CSS Progressive Enhancement : BEGIN -->
+
+<style>
+	/* against 1px bug  = outlook height fix */
+	table, tr, td, th {
+		font-size:0px;
+		line-height:0px;
+		border-collapse: collapse;
+	}
+
+	/* für border-radius */
+	.mbButtonTable {
+		border-collapse:separate !important;
+	}
+
+	.linkFix {
+		color:#bbbbbb !important;
+	}
+
+	.mbCol75 {
+		min-width:75% !important; /* for clients that disable important */
+		max-width:75% !important;
+	}
+
+	.mbCol66 {
+		min-width:66.66% !important; /* for clients that disable important */
+		max-width:66.66% !important;
+	}
+
+	.mbCol50 {
+		min-width:50% !important; /* for clients that disable important */
+		max-width:50% !important;
+	}
+
+	.mbCol33 {
+		min-width:33.333% !important; /* for clients that disable important */
+		max-width:33.333% !important;
+	}
+
+	.mbCol25 {
+		min-width:25% !important; /* for clients that disable important */
+		max-width:25% !important;
+	}
+
+
+
+</style>
+
+<!-- CSS Progressive Enhancement : END -->
+		
+
+<!-- Progressive Enhancements max 640px: BEGIN -->
+<style>
+	@media screen and (max-width: 640px) {
+		.mbEmailContainer {
+			width: 100% !important;
+		}
+	}
+</style>
+<!-- Progressive Enhancements max 640px: END -->
+		
+
+<!-- Progressive Enhancements max 550px: BEGIN -->
+<style>
+	@media screen and (max-width: 550px) {
+		body, center {
+			background:linear-gradient(180deg,#000000 0,#2e2e2e 150px,#000000 500px) !important;
+		}
+
+		.mbHideOnMobile {
+			display:none !important;
+		}
+		
+
+		.hideMobile {
+                display: none !important;
+            }
+
+            .txtAlignCenter {
+                text-align: center !important;
+            }
+
+
+            .hide_on_mobile,
+            img.hide_on_mobile {
+                display: none !important;
+                height: 0 !important;
+                text-indent: -9999px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .hide_on_mobile img {
+                display: none;
+                height: 0;
+                text-indent: -9999px;
+            }
+            .hide_on_mobile1{
+                display: none;
+                height: 0;
+                text-indent: -9999px;
+
+            }
+
+            .show_on_mobile {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-width: 530px !important;
+            }
+			.imgMob {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+                max-width: 530px !important;
+            }
+			
+            .mobShow{
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+		.mbColumnStack {
+			display:block !important;
+			min-width:100% !important;
+			width:100% !important;
+			max-width:100% !important;
+			direction:ltr !important;
+		}
+
+		.mbColumnFloatStack {
+			display:inline-block !important;
+			width:100% !important;
+		}
+
+		.mbMobileFullwidth {
+			width:100% !important;
+		}
+
+		.mbModuleHeaderbar {
+			padding:14px 22px 14px 22px !important;
+		}
+
+		.mbHeaderbarLogo {
+			width:40px !important;
+			height:40px !important;
+			max-height:40px !important;
+		}
+
+		.mbHeaderbarClaim {
+			width:87px !important;
+			height:10px !important;
+			max-height:10px !important;
+		}
+
+
+		.mbHeaderbarClaimColumn {
+			padding:27px 0 0 !important;
+		}
+
+		/* Modules */
+
+		.mbModuleWebversion {
+			padding-top:12px !important;
+			padding-bottom:12px !important;
+		}
+
+		.mbModuleFooterLegalLinks {
+			padding:0 10px 36px !important;
+		}
+
+		/* mbButton */
+		.mbButtonTable {
+			width:100% !important;
+		}
+
+		.mbButtonA,
+		.mbButtonSpan {
+			display:block !important;
+			font-size:18px !important;
+			line-height:20px !important;
+			padding:14px 24px !important;
+		}
+		.mbButtonB,
+		.mbButtonSpan {
+			display:block !important;
+			font-size:11px !important;
+			line-height:20px !important;
+			padding:8px 16px !important;
+		}
+
+
+		/* mbResponsiveImage */
+		.mbImageResponsive {
+			width:100% !important;
+			max-width:100% !important;
+		}
+
+		/* Elements - Typo */
+		.mbHeadline1 {
+			font-size:36px !important;
+			line-height:44px !important;
+		}
+
+		.mbHeadline2 {
+			font-size:32px !important;
+			line-height:40px !important;
+		}
+
+		.mbHeadline3 {
+			font-size:30px !important;
+			line-height:36px !important;
+		}
+
+		.mbHeadline4 {
+			font-size:24px !important;
+			line-height:32px !important;
+		}
+
+		.mbHeadline5 {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbHeadlinePromotion {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+
+		.mbBodycopy,
+		.mbBodycopyTitleHeadline,
+		.mbBodycopyTitleParagraph {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbBodycopy1218 {
+			font-size:12px !important;
+			line-height:18px !important;
+		}
+
+
+		.mbListItem {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbLinkList {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbListIcon {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbStrapline {
+			font-size:12px !important;
+			line-height:18px !important;
+		}
+
+		.mbStrapline1620 {
+			font-size:16px !important;
+			line-height:20px !important;
+		}
+
+		.mbFirstnameLastname {
+			font-size:22px !important;
+			line-height:26px !important;
+		}
+
+		.mbAddress {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbOpeningHoursData {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbFootnote {
+			font-size:16px !important;
+			line-height:20px !important;
+		}
+
+		.mbMetaText {
+			font-size:10px !important;
+			line-height:12px !important;
+		}
+
+		.mbTableData {
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+		.mbTextHighlight {
+			font-size:30px !important;
+			line-height:36px !important;
+		}
+
+
+
+		.mbIconMob32 {
+			width:32px !important;
+			height:32px !important;
+		}
+
+		.mbIconMob60 {
+			width:60px !important;
+			height:60px !important;
+		}
+
+
+		/* Padding Classes */
+		.mbP0 {
+			padding:0 !important;
+		}
+
+		.mbPT0RL0 {
+			padding-top:0 !important;
+			padding-right:0 !important;
+			padding-left:0 !important;
+		}
+
+		.mbPT20 {
+			padding-top:20px !important;
+		}
+
+		.mbPT24 {
+			padding-top:24px !important;
+		}
+		
+		.mbPB16 {
+			padding-bottom:16px !important;
+		}
+		
+		.mbPB32 {
+			padding-bottom:32px !important;
+		}
+
+		.mbPT32B0 {
+			padding-top:32px !important;
+			padding-bottom:0 !important;
+		}
+
+		.mbPT0B32 {
+			padding-top:0 !important;
+			padding-bottom:32px !important;
+		}
+
+		.mbPT0B16 {
+			padding-top:0 !important;
+			padding-bottom:16px !important;
+		}
+
+		.mbPT12B32 {
+			padding-top:12px !important;
+			padding-bottom:32px !important;
+		}
+
+		.mbPRL0 {
+			padding-left:0px !important;
+			padding-right:0px !important;
+		}
+
+		.mbPRL6 {
+			padding-left:6px !important;
+			padding-right:6px !important;
+		}
+
+
+		.mbPRL14 {
+			padding-left:14px !important;
+			padding-right:14px !important;
+			padding-top: 24px !important;
+		}
+
+		.mbPRL16 {
+			padding-left:16px !important;
+			padding-right:16px !important;
+		}
+
+
+		.mbPRL22 {
+			padding-left:22px !important;
+			padding-right:22px !important;
+		}
+
+		.mbPT52RL22 {
+			padding-top:52px !important;
+			padding-left:22px !important;
+			padding-right:22px !important;
+		}
+
+		.mbPTB52RL22 {
+			padding-top:52px !important;
+			padding-bottom:52px !important;
+			padding-left:22px !important;
+			padding-right:22px !important;
+		}
+
+		.mbPTB32 {
+			padding-top:32px !important;
+			padding-bottom:25px !important;
+		}
+
+		.mbPT0RL0B32 {
+			padding-top:0 !important;
+			padding-right:0 !important;
+			padding-bottom:32px !important;
+			padding-left:0 !important;
+		}
+
+		/* Margin Classes */
+
+		.mbMB0 {
+			margin-bottom:0 !important;
+		}
+
+		.mbMB6 {
+			margin-bottom:6px !important;
+		}
+
+		.mbMB12 {
+			margin-bottom:12px !important;
+		}
+
+		.mbMB16 {
+			margin-bottom:12px !important;
+		}
+
+
+		.mbMB20 {
+			margin-bottom:20px !important;
+		}
+
+		.mbMB24 {
+			margin-bottom:24px !important;
+		}
+
+
+		.mbMB32 {
+			margin-bottom:32px !important;
+		}
+
+		.mbMB52 {
+			margin-bottom:52px !important;
+		}
+
+		.mbMT12 {
+			margin-top:12px !important;
+		}
+
+		.mbMT18 {
+			margin-top:18px !important;
+		}
+
+		.mbMT20 {
+			margin-top:20px !important;
+		}
+
+		.mbMT24 {
+			margin-top:24px !important;
+		}
+
+		.mbMT32 {
+			margin-top:32px !important;
+		}
+		
+		.mbMT44 {
+			margin-top:44px !important;
+		}
+
+		.mbMRL22 {
+			margin-right:22px !important;
+			margin-left:22px !important;
+		}
+	}
+</style>
+<!-- Progressive Enhancements max 550px: END -->
+
+
+	</head>
+	<body width="100%"
+		style="
+		margin:0;
+		padding:0 !important;
+		mso-line-height-rule:exactly;
+		background-color:#000001;
+		background:linear-gradient(180deg,#000000 0,#2e2e2e 300px,#000000 1000px);
+		">
+		<center role="article" aria-roledescription="email" lang="en" width="100%"
+			style="
+			width:100%;
+			background-color:#000001;
+			background:linear-gradient(180deg,#000000 0,#2e2e2e 300px,#000000 1000px);
+			">
+			<!--[if mso | IE]>
+			<table role="presentation" border="0" cellpadding="0" cellspacing="0" width="100%"
+			style="
+			background-color:#000001;
+			background:linear-gradient(180deg,#000000 0,#2e2e2e 300px,#000000 1000px);
+			">
+			<tr>
+			<td>
+			<![endif]-->
+
+			
+
+			
+
+<!-- mbEmailContainer : START -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="center" width="640" class="mbEmailContainer"
+	style="
+	width: 640px;
+	max-width: 100%;
+	margin: 0 auto;
+	background-color: #fffffe;
+	">
+			
+				
+
+<!-- mbModuleHeaderWebversion : START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbModuleWebversion mbPRL22"
+			style="
+			background-color: #262626;
+			padding: 6px 30px;
+			vertical-align: top;
+			text-align: center;
+			">
+	
+	
+
+
+<!-- mbMetaText : START -->
+<p class="mbMetaText"
+	style="
+	font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+	font-size:10px;
+	line-height:14px;
+	font-weight:400;
+	margin:0;
+	color:#bbbbbb;
+	
+	">
+	If you have problems displaying this email, please click 
+
+<a href="https://mercedes-benz.com"
+	style="
+	color: #fffffe;
+	text-decoration: underline;
+	">
+	here
+</a>.
+</p>
+<!-- mbMetaText : END -->
+	
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+<!-- mbModuleHeaderWebversion : END -->
+				
+
+<!-- mbModuleHeaderbar : START -->
+
+
+
+<!-- mbColumnContainer : START -->
+<tr>
+	<td class="mbModuleHeaderbar"
+		style="
+		padding:20px 30px;
+		background-color:#000001;
+		background-image:linear-gradient(#000001, #000001);
+		
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0"
+			 width="100%"
+			
+			
+			style="
+			
+			min-width:100%
+			">
+			<tr>
+
+	
+
+<!-- mbColumn : START -->
+<th class="mbColumn "
+	style="
+	width:50%;
+	min-width:50%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+		style="
+		width:100%;
+		min-width:100%;
+		
+		">
+		<tr>
+			<td class="mbColumnInner "
+				style="
+				padding:0 0;
+				text-align:left;
+				">
+
+		
+
+<!-- mbImage : START -->
+
+	
+		<img class="mbImage mbHeaderbarLogo" src="img/tpl_header_logo_v2.png" width="64" height="64" alt="Star" border="0"
+		style="
+		vertical-align:top;
+		
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:400;
+		color:#767676;
+		
+		">
+	
+
+<!-- mbImage : END -->
+
+	
+
+			</td>
+		</tr>
+	</table>
+</th>
+<!-- mbColumn : END -->
+
+	
+
+<!-- mbColumn : START -->
+<th class="mbColumn "
+	style="
+	width:50%;
+	min-width:50%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+		style="
+		width:100%;
+		min-width:100%;
+		
+		">
+		<tr>
+			<td class="mbColumnInner mbHeaderbarClaimColumn"
+				style="
+				
+				text-align:right;
+				">
+
+		
+
+<!-- mbSpacer : START -->
+<table cellspacing="0" cellpadding="0" border="0" class="mbHideOnMobile">
+	<tr>
+		<td style="
+			padding: 46px 0 0 0;
+			font-size: 0;
+			">
+			&nbsp;
+		</td>
+	</tr>
+</table>
+<!-- mbSpacer : END -->
+
+		
+
+<!-- mbImage : START -->
+
+	
+		<img class="mbImage g-img mbHeaderbarClaim" src="img/mercedes-benz.png" width="104" height="12" alt="Mercedes-Benz" border="0"
+		style="
+		vertical-align:top;
+		
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:10px;
+		line-height:12px;
+		font-weight:400;
+		color:#767676;
+		
+		">
+	
+
+<!-- mbImage : END -->
+
+	
+
+			</td>
+		</tr>
+	</table>
+</th>
+<!-- mbColumn : END -->
+
+
+
+			</tr>
+		</table>
+	</td>
+</tr>
+<!-- mbColumnContainer : END -->
+
+<!-- mbModuleHeaderbar : END -->
+				
+
+<!-- mbModuleHeroStage: START -->
+
+
+<!-- mbSingleColumn : START -->
+<tr>
+	<td valign="top"  bgcolor="#000000" style="background-color: #000000;">
+		<!-- HERO IMAGE -->
+		<table width="100%" bgcolor="#000000" border="0" cellspacing="0" cellpadding="0">
+			<tr>
+				<td align="center" >
+					<!-- desktop version -->
+					<p class="hide_on_mobile" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+						<a href="#" target="_blank"><img src="img/1HEADER DESK DSDBook.png" width="640" alt="Mercedes-AMG G 63" style="display: block;" class="img-Header"></a>
+					</p>
+					<!-- mobile version -->
+					<p class="show_on_mobile" style="display:none;font-size:0;mso-line-height-rule:exactly;line-height:1;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+						<a href="#" target="_blank"><img src="img/1HEADER MOB DSDBook.png" alt="Mercedes-AMG G 63" width="0" height="0" style="display: block;" class="imgMob"></a>
+					</p>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+	<tr>
+		<th class=""
+			style="
+			background-color: #000001;
+			padding: 0 0 0 0;
+			vertical-align: top;
+			text-align: left;
+			">
+			
+
+	
+
+
+<!-- mbSingleColumn : END -->
+
+
+
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #000001;
+			padding: 32px 30px 32px 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+	
+
+	
+
+<!-- mbHeadline2 : START -->
+<h2 class="mbHeadline2 mbMB24"
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:36px;
+	line-height:44px;
+	font-weight:400;
+	margin:0 0 0px 0;
+	color:#fffffe;
+	
+	">
+	Votre raccourci vers la tranquillité.
+</h2>
+<!-- mbHeadline2 : END -->
+
+	
+		
+
+
+	
+
+	
+		
+
+
+	
+
+
+
+
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+<!-- mbModuleHeroStage: END -->
+				
+
+<!-- mbModuleIntroductionSalutation: START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22 mbPTB32"
+			style="
+			background-color: #fffffe;
+			padding: 52px 30px 25px 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+		
+
+<!-- mbHeadline3 : START -->
+<h3 class="mbHeadline3 "
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:28px;
+	line-height:36px;
+	font-weight:400;
+	margin:0 0 16px 0;
+	color:#333333;
+	
+	">
+	Madame/Monsieur
+<span style="color: #ff00ea;">%%(NOM)%%</span> 
+</h3>
+<!-- mbHeadline3 : END -->
+	
+
+	
+
+	
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy "
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:0px;
+		color:#767676;
+		
+		">
+		Grâce à la prise de rendez-vous en ligne, gérez facilement et rapidement la maintenance de votre véhicule depuis votre espace personnel :
+		
+	</p>
+
+
+
+	<p class="mbBodycopy "
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:8px 0 0 0;
+		color:#767676;
+		
+		">
+
+<span>- prenez rendez-vous avec le Réparateur Agréé Mercedes-Benz de votre choix</span> <br>
+
+<span>- consultez les informations relatives à votre véhicule</span><br>
+<span>- sélectionnez vos prestations et consultez vos tarifs d’entretien</span><br>
+<span>- décalez votre rendez-vous si besoin</span><br>
+<span>- bénéficiez à tout moment de l’expertise du réseau Mercedes-Benz</span><br><br>
+<span>Pour votre première prise de rendez-vous en ligne, un parapluie vous est offert lors de votre passage dans l’atelier<sup>(1)</sup>.</span>
+
+
+
+
+
+	
+	<!-- mbBodycopy : END -->
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+		
+
+
+
+
+	
+
+	
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+
+
+
+	
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22 mbPB32"
+			style="
+			background-color: #fffffe;
+			padding: 16px 30px 52px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+			
+	
+		
+
+<!-- Single Button : START -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="mbSingleButton "
+			style="
+			padding:0px
+			">
+			
+
+<!-- Button : START -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td>
+			<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td class="mbButtonTd mbButtonPrimaryTd"
+			style="
+			border-radius:2px;
+			background:#0078d6;
+			" class="mo">
+			<a class="mbButtonB mbButtonPrimaryA" href="https://mercedes-benz.com"
+				style="
+				background:#0078d6;
+				border:1px solid #0078d6;
+				font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+				font-size:16px;
+				line-height:20px;
+				font-weight:700;
+				text-decoration:none;
+				padding:10px 24px;
+				color:#fffffe;
+				display:block;
+				border-radius:2px;
+				">
+				Prendre rendez-vous
+			</a>
+		</td>
+		<td style="padding-left: 30px;">&nbsp;</td>
+		<td class="mbButtonTd mbButtonPrimaryTd"
+			style="
+			border-radius:2px;
+			background:#0078d6;
+			">
+			<a class="mbButtonB mbButtonPrimaryA" href="https://mercedes-benz.com"
+				style="
+				background:#0078d6;
+				border:1px solid #0078d6;
+				font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+				font-size:16px;
+				line-height:20px;
+				font-weight:700;
+				text-decoration:none;
+				padding:10px 24px;
+				color:#fffffe;
+				display:block;
+				border-radius:2px;
+				">
+				Accéder à votre espace
+			</a>
+		</td>
+
+				</tr>
+			</table>
+		</td>
+		
+	</tr>
+</table>
+<!-- Button : END -->
+
+
+
+		</td>
+	</tr>
+</table>
+
+<!-- Single Button : END -->
+		
+	
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+
+
+<!-- mbModuleIntroductionSalutation: END -->
+
+				
+
+
+
+
+
+<!-- mbModuleContentImageText3xGroup : START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #fffffe;
+			padding: 32px 30px 0;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+<!-- mbHeadline3 : START -->
+<h3 class="mbHeadline3 "
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:28px;
+	line-height:36px;
+	font-weight:400;
+	margin:0 0 20px 0;
+	color:#333333;
+	
+	">
+	
+</h3>
+<!-- mbHeadline3 : END -->
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+<!-- mbColumnStackContainer : START -->
+<tr>
+	<td class="mbColumnStackContainer mbP0" valign="top" align="center"
+		 width="100%"
+		style="
+		font-size:0;
+		padding:0 20px 0 20px;
+		
+		
+		background-color:#fffffe;
+		
+		">
+		<!--[if mso]>
+		<table role="presentation" border="0" cellspacing="0" cellpadding="0"  width="100%">
+		<tr>
+
+	
+
+<td valign="top"
+	style="
+	width:33.33%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol33"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:200px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0"
+					style="
+					padding:0 10px 32px 10px;
+					text-align:left;
+					
+					">
+
+		
+
+<!-- mbImageResponsive : START -->
+
+	<img class="mbImageResponsive" src="img/Carré DSDBook 1 Frein.png" width="180" height="135" alt="Wheels" border="0"
+	style="
+	width:180px;
+	max-width:100%;
+	height:auto;
+	vertical-align:top;
+	background:#bbbbbb;
+	font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#333333;
+	display:block;
+	
+	">
+
+<!-- mbImageResponsive : END -->
+
+		
+
+<!-- mbSingleColumn : START -->
+
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+	<tr>
+		<th class="mbPRL22 mbPT32B0"
+			style="
+			
+			padding: 16px 0 0 0;
+			vertical-align: top;
+			text-align: left;
+			">
+
+			
+
+<!-- mbHeadline4 : START -->
+<h4 class="mbHeadline4"
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:24px;
+	line-height:32px;
+	font-weight:400;
+	margin:0 0 0 0;
+	color:#333333;
+	padding:0 0 12px 0;border-bottom:1px solid #bbbbbb;
+	
+	">
+	Freinage
+</h4>
+<!-- mbHeadline4 : END -->
+
+			
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy mbMT18"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:12px 0 0 0;
+		color:#767676;
+		
+		">
+		Une révision régulière des freins vous assure des trajets sereins.
+	</p>
+
+	<!-- mbBodycopy : END -->
+
+			
+			
+
+
+
+
+
+			
+
+
+
+
+
+			
+				
+					
+
+<!-- Single Button : START -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="mbSingleButton "
+			style="
+			padding:24px 0 0 0
+			">
+			
+
+<!-- Button : START -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="mbButtonTd mbButtonPrimaryTd"
+			style="
+			border-radius:2px;
+			background:#0078d6;
+			">
+			<a class="mbButtonA mbButtonPrimaryA" href="https://www.mercedes-benz.com"
+				style="
+				background:#0078d6;
+				border:1px solid #0078d6;
+				font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+				font-size:16px;
+				line-height:20px;
+				font-weight:700;
+				text-decoration:none;
+				padding:10px 24px;
+				color:#fffffe;
+				display:block;
+				border-radius:2px;
+				">
+				Prendre RDV
+			</a>
+		</td>
+	</tr>
+</table>
+<!-- Button : END -->
+
+
+
+		</td>
+	</tr>
+</table>
+
+<!-- Single Button : END -->
+				
+			
+
+		
+
+		</th>
+	</tr>
+</table>
+<!-- mbSingleColumn : END -->
+
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+	
+
+<td valign="top"
+	style="
+	width:33.33%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol33"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:200px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0"
+					style="
+					padding:0 10px 32px 10px;
+					text-align:left;
+					
+					">
+
+		
+
+<!-- mbImageResponsive : START -->
+
+	<img class="mbImageResponsive" src="img/Carré DSDBook 2 Pneumatique.png" width="180" height="135" alt="Telematics" border="0"
+	style="
+	width:180px;
+	max-width:100%;
+	height:auto;
+	vertical-align:top;
+	background:#bbbbbb;
+	font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#333333;
+	display:block;
+	
+	">
+
+<!-- mbImageResponsive : END -->
+
+		
+
+<!-- mbSingleColumn : START -->
+
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+	<tr>
+		<th class="mbPRL22 mbPT32B0"
+			style="
+			
+			padding: 16px 0 0 0;
+			vertical-align: top;
+			text-align: left;
+			">
+
+			
+
+<!-- mbHeadline4 : START -->
+<h4 class="mbHeadline4"
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:24px;
+	line-height:32px;
+	font-weight:400;
+	margin:0 0 0 0;
+	color:#333333;
+	padding:0 0 12px 0;border-bottom:1px solid #bbbbbb;
+	
+	">
+	Pneumatiques
+</h4>
+<!-- mbHeadline4 : END -->
+
+			
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy mbMT18"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:12px 0 0 0;
+		color:#767676;
+		
+		">
+		Avec une législation renforcée sur les routes de montagne et des conditions plus difficiles, l’hiver est un moment idéal pour changer ses pneumatiques.
+	</p>
+
+	<!-- mbBodycopy : END -->
+
+			
+			
+
+
+
+
+
+			
+
+
+
+
+
+			
+				
+					
+
+<!-- Single Button : START -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="mbSingleButton "
+			style="
+			padding:24px 0 0 0
+			">
+			
+
+<!-- Button : START -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="mbButtonTd mbButtonPrimaryTd"
+			style="
+			border-radius:2px;
+			background:#0078d6;
+			">
+			<a class="mbButtonA mbButtonPrimaryA" href="https://www.mercedes-benz.com"
+				style="
+				background:#0078d6;
+				border:1px solid #0078d6;
+				font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+				font-size:16px;
+				line-height:20px;
+				font-weight:700;
+				text-decoration:none;
+				padding:10px 24px;
+				color:#fffffe;
+				display:block;
+				border-radius:2px;
+				">
+				Prendre RDV
+			</a>
+		</td>
+	</tr>
+</table>
+<!-- Button : END -->
+
+
+
+		</td>
+	</tr>
+</table>
+
+<!-- Single Button : END -->
+				
+			
+
+		
+
+		</th>
+	</tr>
+</table>
+<!-- mbSingleColumn : END -->
+
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+	
+
+<td valign="top"
+	style="
+	width:33.33%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol33"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:200px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0"
+					style="
+					padding:0 10px 32px 10px;
+					text-align:left;
+					
+					">
+
+		
+
+<!-- mbImageResponsive : START -->
+
+	<img class="mbImageResponsive" src="img/Carré DSDBook 3 Batterie.png" width="180" height="135" alt="Protection & Care" border="0"
+	style="
+	width:180px;
+	max-width:100%;
+	height:auto;
+	vertical-align:top;
+	background:#bbbbbb;
+	font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+	font-size:16px;
+	line-height:24px;
+	font-weight:400;
+	color:#333333;
+	display:block;
+	
+	">
+
+<!-- mbImageResponsive : END -->
+
+		
+
+<!-- mbSingleColumn : START -->
+
+	<table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+
+	<tr>
+		<th class="mbPRL22 mbPT32B0"
+			style="
+			
+			padding: 16px 0 0 0;
+			vertical-align: top;
+			text-align: left;
+			">
+
+			
+
+<!-- mbHeadline4 : START -->
+<h4 class="mbHeadline4"
+	style="
+	font-family:'MBCorpoA', 'MBCorpoATitleCond-Office', Arial, sans-serif;
+	font-size:24px;
+	line-height:32px;
+	font-weight:400;
+	margin:0 0 0 0;
+	color:#333333;
+	padding:0 0 12px 0;border-bottom:1px solid #bbbbbb;
+	
+	">
+	Batterie
+</h4>
+<!-- mbHeadline4 : END -->
+
+			
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy mbMT18"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:12px 0 0 0;
+		color:#767676;
+		
+		">
+		Lors de la saison hivernale, le remplacement de la batterie peut s’avérer particulièrement judicieux en prévision des multiples démarrages à froid
+	</p>
+
+	<!-- mbBodycopy : END -->
+
+			
+			
+
+
+
+
+
+			
+
+
+
+
+
+			
+				
+					
+
+<!-- Single Button : START -->
+<table role="presentation" width="100%" cellspacing="0" cellpadding="0">
+	<tr>
+		<td class="mbSingleButton "
+			style="
+			padding:24px 0 0 0
+			">
+			
+
+<!-- Button : START -->
+<table role="presentation" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td class="mbButtonTd mbButtonPrimaryTd"
+			style="
+			border-radius:2px;
+			background:#0078d6;
+			">
+			<a class="mbButtonA mbButtonPrimaryA" href="https://www.mercedes-benz.com"
+				style="
+				background:#0078d6;
+				border:1px solid #0078d6;
+				font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+				font-size:16px;
+				line-height:20px;
+				font-weight:700;
+				text-decoration:none;
+				padding:10px 24px;
+				color:#fffffe;
+				display:block;
+				border-radius:2px;
+				">
+				Prendre RDV
+			</a>
+		</td>
+	</tr>
+</table>
+<!-- Button : END -->
+
+
+
+		</td>
+	</tr>
+</table>
+
+<!-- Single Button : END -->
+				
+			
+
+		
+
+		</th>
+	</tr>
+</table>
+<!-- mbSingleColumn : END -->
+
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+
+
+	</tr>
+	</table>
+	<![endif]-->
+	</td>
+</tr>
+<!-- mbColumnStackContainer : END -->
+
+
+
+
+<!-- mbModuleContentImageText3xGroup : END -->
+
+
+
+
+<!-- mbModuleContentImageTextFullPromotion: START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class=""
+			style="
+			background-color: #fffffe;
+			padding: 0 0 0 0;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #fffffe;
+			padding: 22px 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+
+	
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy "
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:0 0 0 0;
+		color:#767676;
+		
+		">
+		Votre réparateur Agréé se tient à votre disposition
+	</p>
+
+	<!-- mbBodycopy : END -->
+
+	
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+
+
+
+
+
+	
+		
+
+
+
+<!-- mbModuleFooterSocialMedia: START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #000001;
+			padding: 32px 30px 0 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+<!-- mbHeadline5 : START -->
+<h5 class="mbHeadline5"
+	style="
+	font-family:'MBCorpoSTitle', 'MBCorpoSTitle-Office', Arial, sans-serif;
+	font-size:18px;
+	line-height:24px;
+	font-weight:400;
+	margin:0 0 8px 0;
+	color:#fffffe;
+	
+	">
+	Suivez-vous
+</h5>
+<!-- mbHeadline5 : END -->
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+
+<!-- mbColumnContainer : START -->
+<tr>
+	<td class="mbPRL14"
+		style="
+		padding:0 22px 24px 22px;
+		background-color:#000001;
+		
+		
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0"
+			
+			
+			
+			style="
+			
+			
+			">
+			<tr>
+
+	
+
+
+
+
+	<!-- mbLinkListIconFloat : START -->
+		
+
+
+	
+
+<!-- mbColumnFloat : START -->
+<th class="mbColumnFloat"
+	style="
+	display:inline-block;
+	
+	padding:8px;
+	vertical-align:top;
+	text-align:left;
+	
+	">
+	
+		
+
+<!-- mbImage : START -->
+
+	
+		<img class="mbImage" src="img/facebook.png" width="32" height="32" alt="" border="0"
+		style="
+		vertical-align:top;
+		background:#000000;
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:400;
+		color:#767676;
+		
+		">
+	
+
+<!-- mbImage : END -->
+		
+	
+
+</th>
+<!-- mbColumnFloat : END -->
+
+
+
+	
+
+<!-- mbColumnFloat : START -->
+<th class="mbColumnFloat"
+	style="
+	display:inline-block;
+	
+	padding:8px;
+	vertical-align:top;
+	text-align:left;
+	
+	">
+	
+		
+
+<!-- mbImage : START -->
+
+	
+		<img class="mbImage" src="img/twitter.png" width="32" height="32" alt="" border="0"
+		style="
+		vertical-align:top;
+		background:#000000;
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:400;
+		color:#767676;
+		
+		">
+	
+
+<!-- mbImage : END -->
+		
+	
+
+</th>
+<!-- mbColumnFloat : END -->
+
+
+
+	
+
+<!-- mbColumnFloat : START -->
+<th class="mbColumnFloat"
+	style="
+	display:inline-block;
+	
+	padding:8px;
+	vertical-align:top;
+	text-align:left;
+	
+	">
+	
+		
+
+<!-- mbImage : START -->
+
+	
+		<img class="mbImage" src="img/instagram.png" width="32" height="32" alt="" border="0"
+		style="
+		vertical-align:top;
+		background:#000000;
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:24px;
+		font-weight:400;
+		color:#767676;
+		
+		">
+	
+
+<!-- mbImage : END -->
+		
+	
+
+</th>
+<!-- mbColumnFloat : END -->
+
+
+
+	
+
+<!-- mbColumnFloat : START -->
+<th class="mbColumnFloat"
+	style="
+	display:inline-block;
+	
+	padding:8px;
+	vertical-align:top;
+	text-align:left;
+	
+	">
+	
+		
+
+
+ 
+	
+ <!-- mbImage : START -->
+
+	
+ <img class="mbImage" src="img/linkedin.png" width="32" height="32" alt="" border="0"
+ style="
+ vertical-align:top;
+ background:#000000;
+ font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+ font-size:16px;
+ line-height:24px;
+ font-weight:400;
+ color:#767676;
+ 
+ ">
+
+
+<!-- mbImage : END -->
+		
+	
+
+</th>
+<!-- mbColumnFloat : END -->
+
+	<!-- mbLinkListIconFloat : END -->
+
+
+
+
+			</tr>
+		</table>
+	</td>
+</tr>
+<!-- mbColumnContainer : END -->
+<!-- mbModuleFooterSocialMedia: END -->
+				
+
+<!-- mbModuleContact: START -->
+
+
+<!-- mbDivider : START -->
+<tr>
+	<td style="background-color:#000000;">
+		<div class="mbDivider mbMRL22"
+			style="
+			font-size:1px;
+			line-height:1px;
+			margin:0 30px;
+			background:#696969;
+			height:1px;
+			">
+			&#8202;
+		</div>
+	</td>
+</tr>
+<!-- mbDivider : END -->
+
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #000001;
+			padding: 32px 30px 0 32px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+
+	
+
+	
+
+<!-- mbHeadline5 : START -->
+<h5 class="mbHeadline5"
+	style="
+	font-family:'MBCorpoSTitle', 'MBCorpoSTitle-Office', Arial, sans-serif;
+	font-size:18px;
+	line-height:24px;
+	font-weight:400;
+	margin:0 0 0 0;
+	color:#fffffe;
+	
+	">
+	Votre Distributeur Agréé
+
+<!-- <span style="color: #ff00ea;">%%retailname%%</span> -->
+</h5>
+<!-- mbHeadline5 : END -->
+
+	
+		
+
+
+	<p class="mbBodycopy  mbMT32"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:24px 0 0 0;
+		color:#bbbbbb;
+		
+		">
+		
+
+<b style="font-weight: 700">Besoin d'un contact ? Votre Distributeur Agréé est toujours prêt à vous aider.</b>
+	</p>
+
+
+		
+
+
+
+
+	<!-- mbAddress - START -->
+	<p class="mbAddress "
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		color:#bbbbbb;
+		margin:0px
+		
+		"><br>
+
+Téléphone 
+
+<a href="tel:%%retailphone%%"
+	style="
+	color: #fffffe;
+	text-decoration: none;
+	white-space: nowrap;
+	">
+	 %%retailphone%%
+</a><br>
+
+Email: 
+
+<a href="mailto: %%retailmail%%"
+	style="
+	color: #fffffe;
+	text-decoration: underline;
+	">
+	 %%retailmail%%
+</a>
+	</p>
+	<!-- mbAddress - END -->
+
+	
+
+	
+		
+
+
+	<p class="mbBodycopy  mbMT32"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:24px 0 0 0;
+		color:#bbbbbb;
+		
+		">
+		
+
+<b style="font-weight: 700">Heures d'ouverture</b>
+	</p>
+
+
+		
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+		
+
+
+
+
+	<!-- mbOpeningHours : START -->
+		
+
+
+
+<!-- mbColumnStackContainer : START -->
+<tr>
+	<td class="mbColumnStackContainer mbPT32" valign="top" align="center"
+		 width="100%"
+		style="
+		font-size:0;
+		padding:0 20px;
+		
+		
+		background-color:#000001;
+		
+		">
+		<!--[if mso]>
+		<table role="presentation" border="0" cellspacing="0" cellpadding="0"  width="100%">
+		<tr>
+
+	
+
+<td valign="top"
+	style="
+	width:33.33%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol33"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:200px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0 mbOpeningHoursData"
+					style="
+					padding:0 10px;
+					text-align:left;
+					font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		color:#bbbbbb;
+		
+	
+					">
+
+Lundi à vendredi
+	
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+
+	
+
+<td valign="top"
+	style="
+	width:66.66%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol66"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:400px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0 mbOpeningHoursData"
+					style="
+					padding:0 10px;
+					text-align:left;
+					font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		color:#bbbbbb;
+		
+	
+					">
+
+		
+
+<span style="color: #ff00ea;">%%openinghoursmotofr%%</span>
+	
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+
+
+	</tr>
+	</table>
+	<![endif]-->
+	</td>
+</tr>
+<!-- mbColumnStackContainer : END -->
+
+
+
+<!-- mbColumnStackContainer : START -->
+<tr>
+	<td class="mbColumnStackContainer mbPT32" valign="top" align="center"
+		 width="100%"
+		style="
+		font-size:0;
+		padding:0 20px;
+		
+		
+		background-color:#000001;
+		
+		">
+		<!--[if mso]>
+		<table role="presentation" border="0" cellspacing="0" cellpadding="0"  width="100%">
+		<tr>
+
+	
+
+<td valign="top"
+	style="
+	width:33.33%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol33"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:200px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0 mbOpeningHoursData"
+					style="
+					padding:0 10px;
+					text-align:left;
+					font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		color:#bbbbbb;
+		
+	
+					">
+
+Samedi
+	
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+
+	
+
+<td valign="top"
+	style="
+	width:66.66%;
+	vertical-align:top;
+	text-align:left;
+	">
+	<![endif]-->
+	<!-- mbColumnStack : START -->
+	<div class="mbColumnStack mbCol66"
+		style="
+		display:inline-block;
+		width:100%;
+		max-width:400px;
+		vertical-align:top;
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0" align="left"
+			style="
+			width:100%;
+			">
+			<tr>
+				<td class="mbColumnInner mbPT0RL0 mbOpeningHoursData"
+					style="
+					padding:0 10px;
+					text-align:left;
+					font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		color:#bbbbbb;
+		
+	
+					">
+
+		
+
+<span style="color: #ff00ea;">%%openinghourssat%%</span>
+	
+	
+
+			</td>
+		</tr>
+	</table>
+</div>
+<!-- mbColumnStack : END -->
+<!--[if mso]>
+</td>
+
+
+
+	</tr>
+	</table>
+	<![endif]-->
+	</td>
+</tr>
+<!-- mbColumnStackContainer : END -->
+	<!-- mbOpeningHours : END -->
+
+
+		
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #000001;
+			padding: 0 30px 32px 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+	
+
+	
+
+	
+		
+
+
+	<p class="mbBodycopy  mbMT32"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:24px 0 0 0;
+		color:#bbbbbb;
+		
+		">
+		
+
+<b style="font-weight: 700">N'hésitez pas à visiter notre site Internet</b>
+	</p>
+
+
+		
+
+
+	<p class="mbBodycopy "
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:16px;
+		line-height:22px;
+		font-weight:400;
+		margin:0 0 0 0;
+		color:#bbbbbb;
+		
+		">
+		
+
+<a href="../retailurl"
+	style="
+	color: #fffffe;
+	text-decoration: underline;
+	">
+	retailurl
+</a>
+	</p>
+
+	
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+
+
+
+<!-- mbDivider : START -->
+<tr>
+	<td style="background-color:#000001;">
+		<div class="mbDivider mbMRL22"
+			style="
+			font-size:1px;
+			line-height:1px;
+			margin:0 30px;
+			background:#696969;
+			height:1px;
+			">
+			&#8202;
+		</div>
+	</td>
+</tr>
+<!-- mbDivider : END -->
+
+<!-- mbModuleContact: END -->
+				
+				
+
+<!-- mbModuleFooterLegalText: START -->
+
+
+<!-- mbSingleColumn : START -->
+
+	<tr>
+		<th class="mbPRL22"
+			style="
+			background-color: #000001;
+			padding: 32px 30px 32px 30px;
+			vertical-align: top;
+			text-align: left;
+			">
+
+	
+
+
+
+
+	<!-- mbBodycopy : START -->
+	
+
+
+	<p class="mbBodycopy mbBodycopy1218"
+		style="
+		font-family:'MBCorpoS', 'MBCorpoSText-Office', Arial, sans-serif;
+		font-size:12px;
+		line-height:16px;
+		font-weight:400;
+		margin:0 0 0 0;
+		color:#bbbbbb;
+		
+		">
+		© 2024,<span style="color: #ff00ea;">[Nom du distributeur Agréé]</span><br><br>
+		<span>(1) Offre valable du 01/10/2024 au 31/03/2025 pour tout client propriétaire d’un véhicule Mercedes-Benz Voitures Particulières (hors Classe V, Classe X). Pour toutes réservation en ligne d'une maintenance, un parapluie B66041533 est offert (référence: Offre valable dans le réseau participant et sous réserve d'avoir effectué une prise de rendez-vous en ligne).</span><br><br>
+		<span>Conformément aux dispositions de la loi « Informatique et Libertés» n°78-17 du 6 janvier 1978 modifiée et du Règlement européen du 27 avril 2016 relatif à la protection des données des personnes physiques, vous bénéficiez du droit de vous opposer, à tout moment, au traitement des données à caractère personnel vous concernant ayant pour finalité la prospection y compris le profilage dans la mesure où il est lié à une telle prospection. Vous bénéficiez également de droits d’accès et de rectification de celle-ci, d’un droit à l’effacementet d’un droit à la portabilité de ces données, d’un droit à la limitation de leur traitement ainsi que du droit de définir des directives sur le sort, post mortem, de ces données.</span><br><br>
+
+		Vous pouvez exercer ces droits en vous adressant à <span style="color: #ff00ea;">[Nom du Réparateur Agréé]</span> – Délégué à la Protection des Données – <span style="color: #ff00ea;">[Adressedu Réparateur Agréé]</span> ou en transmettant votre demande à e-mail du <span style="color: #ff00ea;">[Réparateur Agréé]</span>. Toute demande devra être accompagnée d’une copie, recto-verso, d’une pièce d’identité.
+		<br><br>
+		<span style="color: #ff00ea;">[Raison Sociale –RCPS –Capital du Réparateur Agréé Si utilisationdu fichier SIV, inclure vos mentions RGPD.]</span><br><br>
+		<span>
+			Pour vous désabonner, cliquez
+			<a href="../click%20here%20to%20notify%20us"
+	style=" color: #bbbbbb;
+	text-decoration: underline;
+	">
+	ici
+</a>.
+		</span>
+
+
+	</p>
+
+
+
+	
+
+	<!-- mbBodycopy : END -->
+
+
+
+
+		</th>
+	</tr>
+
+<!-- mbSingleColumn : END -->
+<!-- mbModuleFooterLegalText: END -->
+				
+
+<!-- mbModuleFooterLegalLinks: START -->
+
+
+<!-- mbColumnContainer : START -->
+<tr>
+	<td class="mbModuleFooterLegalLinks"
+		style="
+		padding:0 18px 36px;
+		background-color:#000001;
+		
+		
+		">
+		<table role="presentation" cellspacing="0" cellpadding="0" border="0"
+			 width="100%"
+			
+			
+			style="
+			
+			min-width:100%
+			">
+			<tr>
+
+	
+
+
+
+			
+
+</table>
+<!-- mbEmailContainer : END -->
+
+			<!--[if mso | IE]>
+			</td>
+			</tr>
+			</table>
+			<![endif]-->
+		</center>
+	</body>
+</html>

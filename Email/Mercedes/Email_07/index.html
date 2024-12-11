@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Smart - A Responsive Email Template</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <style type="text/css">
+        /* CLIENT-SPECIFIC STYLES */
+        body,
+        table,
+        td,
+        a {
+            -webkit-text-size-adjust: 100%;
+            -ms-text-size-adjust: 100%;
+        }
+
+        /* Prevent WebKit and Windows mobile changing default text sizes */
+        table,
+        td {
+            mso-table-lspace: 0pt;
+            mso-table-rspace: 0pt;
+        }
+
+        /* Remove spacing between tables in Outlook 2007 and up */
+        img {
+            -ms-interpolation-mode: bicubic;
+        }
+
+        /* Allow smoother rendering of resized image in Internet Explorer */
+
+        /* RESET STYLES */
+        img {
+            border: 0;
+            height: auto;
+            line-height: 100%;
+            outline: none;
+            text-decoration: none;
+        }
+
+        table {
+            border-collapse: collapse !important;
+        }
+
+        body {
+            height: 100% !important;
+            margin: 0 !important;
+            padding: 0 !important;
+            width: 100% !important;
+        }
+
+        /* iOS BLUE LINKS */
+        a[x-apple-data-detectors] {
+            color: inherit !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+            font-family: inherit !important;
+            font-weight: inherit !important;
+            line-height: inherit !important;
+        }
+
+
+@media screen and (max-width: 639px) {
+
+    .wrapper2ColFull {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.resizeTabMea {
+    width: 205px !important;
+    border-right: 1px solid #ffffff !important;
+    border-bottom: 1px solid #000000 !important;
+    margin: 0 auto !important;
+}
+
+.padBlockBlancTop {
+    padding-top: 20px !important;
+    height: auto !important;
+}
+
+.padBlockBlanc {
+    padding-bottom: 20px !important;
+    height: auto !important;
+}
+
+       .resizeTab  {
+                width: 100% !important;
+                max-width: 480px !important;
+            }
+}
+        /* MOBILE STYLES */
+        @media screen and (max-width: 525px) {
+
+            .resizeLiner {
+                width: 100% !important;
+                max-width: 180px !important;
+            }
+
+
+
+            .resizepadding {
+                padding-left: 20px !important;
+                padding-right: 20px !important;
+            }
+
+            .resizeTabVis {
+                padding: 0 0 30px 0 !important;
+            }
+
+            .hideMobile {
+                display: none !important;
+            }
+
+            .txtAlignCenter {
+                text-align: center !important;
+            }
+
+            .resizeLogo1 {
+                width: 45px !important;
+                height: auto !important;
+            }
+
+            .xs-w42logoStar {
+                width: 42px !important;
+                max-width: 42px !important;
+                height: auto !important;
+            }
+
+            .xs-w84logo {
+                width: 84px !important;
+                max-width: 84px !important;
+                height: auto !important;
+            }
+
+            .hide_on_mobile,
+            img.hide_on_mobile {
+                display: none !important;
+                height: 0 !important;
+                text-indent: -9999px !important;
+                padding: 0px !important;
+                margin: 0px !important;
+            }
+
+            .hide_on_mobile img {
+                display: none;
+                height: 0;
+                text-indent: -9999px;
+            }
+
+            .show_on_mobile {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .imgMob {
+                display: block !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            .ResizeMobBtn {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                padding-bottom: 20px !important;
+            }
+
+            .ResizeMobBtnPad {
+                display: block !important;
+                width: 100% !important;
+                max-width: 100% !important;
+                padding: 0 0 20px 0 !important;
+            }
+
+            .ResizeInnerBtn {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* ALLOWS FOR FLUID TABLES */
+            .wrapper {
+                width: 100% !important;
+                max-width: 100% !important;
+            }
+
+            /* ADJUSTS LAYOUT OF LOGO IMAGE */
+            .logo img {
+                margin: 0 auto !important;
+            }
+
+            /* USE THESE CLASSES TO HIDE CONTENT ON MOBILE */
+            .mobile-hide {
+                display: none !important;
+            }
+
+            .img-max {
+                max-width: 100% !important;
+                width: 100% !important;
+                height: auto !important;
+            }
+
+            /* FULL-WIDTH TABLES */
+            .responsive-table {
+                width: 100% !important;
+            }
+
+            /* UTILITY CLASSES FOR ADJUSTING PADDING ON MOBILE */
+            .padding {
+                padding: 10px 5% 15px 5% !important;
+            }
+
+            .padding-meta {
+                padding: 30px 5% 0px 5% !important;
+                text-align: center;
+            }
+
+            .padding-copy {
+                padding: 10px 5% 10px 5% !important;
+                text-align: center;
+            }
+
+            .no-padding {
+                padding: 0 !important;
+            }
+
+            .section-padding {
+                padding: 50px 15px 50px 15px !important;
+            }
+
+            /* ADJUST BUTTONS ON MOBILE */
+            .mobile-button-container {
+                margin: 0 auto;
+                width: 100% !important;
+            }
+
+            .mobile-button {
+                padding: 15px !important;
+                border: 0 !important;
+                font-size: 16px !important;
+                display: block !important;
+            }
+
+        }
+
+        @media screen and (max-width: 400px) {
+
+            .ReduceSize {
+                font-size: 26px !important;
+                line-height: 30px !important;
+            }
+
+        }
+
+        /* ANDROID CENTER FIX */
+        div[style*="margin: 16px 0;"] {
+            margin: 0 !important;
+        }
+    </style>
+    <!--[if gte mso 12]>
+<style type="text/css">
+.mso-right {
+	padding-left: 20px;
+}
+</style>
+<![endif]-->
+</head>
+
+<body style="margin: 0 !important; padding: 0 !important;">
+
+
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <!-- HEADER -->
+            <td bgcolor="#ffffff" align="center">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+            <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="wrapper">
+                <tbody><tr>
+                    <td align="left" class="hideMobile" valign="top" style="padding-left:20px;padding-top:15px;padding-right:15px;padding-bottom:20px;padding-left:15px;line-height:16px;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#999999;">
+                        <font color="#999999"><b>Souscrivez à un Contrat ServiceCare</b></font>
+                    </td>
+                    <td align="right" valign="top" class="txtAlignCenter" style="padding-top:15px;padding-right:20px;padding-bottom:20px;padding-left:15px;line-height:16px;font-family:Arial, Helvetica, sans-serif;font-size:12px;color:#999999;">
+                        <font color="#999999"><a href="#" target="_blank" style="color:#999999;text-decoration:underline;">
+                                <font color="#999999">Voir la version en ligne
+                                </font>
+                            </a></font>
+                    </td>
+                </tr>
+            </tbody></table>
+            
+                
+             
+
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+            <!-- FIN HEADER -->
+        </tr>
+        <tr>
+            <!-- VISUEL -->
+            <td bgcolor="#ffffff" align="center" style="padding: 0px 0px 0px 0px;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="responsive-table">
+                    <tr>
+                        <td>
+                            <!-- HERO IMAGE -->
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center">
+                                        <!-- desktop version -->
+                                        <p class="hide_on_mobile" style="margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="img/Header_Desktop.png" width="640" alt="Contrat ServiceCare" style="display: block; width: 640px;" class="img-Header"></a>
+                                        </p>
+                                        <!-- mobile version -->
+                                        <p class="show_on_mobile" style="display:none;font-size:0;mso-line-height-rule:exactly;line-height:1;margin-top:0;margin-bottom:0;margin-right:0;margin-left:0;padding-top:0;padding-bottom:0;padding-right:0;padding-left:0;">
+                                            <a href="#" target="_blank"><img src="img/Header_Mobile.png" alt="Contrat ServiceCare" width="0" height="0" style="display: block;" class="imgMob"></a>
+                                        </p>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+            <!-- FIN VISUEL -->
+        </tr>
+        <tr>
+            <!-- BLOCK TXT ET CTA -->
+            <td bgcolor="#ffffff" align="center" style="padding: 0px 0px 0px 0px;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="responsive-table">
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                               
+                                <tr>
+                                    <td align="left" valign="top" style="padding-bottom:30px;padding-top:30px;padding-left:50px;padding-right:50px;line-height:22px;font-family: Arial, Helvetica, sans-serif;font-size:16px;color:#000000;" class="resizepadding">
+                                        Citadines, Citadins,<br><br>
+                                        Pensé pour préserver votre budget, le Contrat ServiceCare vous fait profiter de <strong>tarifs de maintenance fixes tout au long de l’année </strong> et vous permet d’ajuster librement les services souscrits au sein de votre contrat d’entretien.<br><br>
+
+                                        Du &zwj;01/10/2024 au &zwj;31/03/2025, le 4ème service souscrit est offert<sup>(*)</sup>.
+                                    </td>
+                                </tr>
+                              
+                                <tr>
+                                    <td align="left" class="resizepadding" style="padding-bottom:20px;padding-top:0px;padding-left:50px;padding-right:50px;">
+                                      <div><!--[if mso]>
+                                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:40px;v-text-anchor:middle;width:160px;" arcsize="53%" strokecolor="#f6ba35" fillcolor="#f6ba35">
+                                        <w:anchorlock/>
+                                        <center style="color:#000000;font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;">Profitez de l’offre</center>
+                                    </v:roundrect>
+                                    <![endif]--><a href="#"
+                                    style="background-color:#f6ba35;border:1px solid #f6ba35;border-radius:21px;color:#000000;display:inline-block;font-family:Arial, Helvetica, sans-serif;font-size:14px;font-weight:bold;line-height:40px;text-align:center;text-decoration:none;width:160px;-webkit-text-size-adjust:none;mso-hide:all;">Profitez de l’offre</a></div>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" style="padding-bottom:30px;padding-top:10px;padding-left:50px;padding-right:50px;line-height:22px;font-family: Arial, Helvetica, sans-serif;font-size:16px;color:#000000;" class="resizepadding">
+                                        Au plaisir de vous accueillir,<br>
+                                        Votre Réparateur Agréé
+                                    </td>
+                                </tr>
+                              
+                                <tr>
+                                    <td align="center" valign="top" style="padding-bottom:30px;padding-top:10px;padding-left:50px;padding-right:50px;line-height:22px;font-family: Arial, Helvetica, sans-serif;font-size:16px;color:#ff00e4;" class="resizepadding">
+                                        Directeur<br>Lieu<br>Rue Specimen<br>Ville Specimen<br><br>Nom Prénom<br>Réparateur Agréé
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td align="left" valign="top" style="padding-bottom:30px;padding-top:40px;padding-left:50px;padding-right:50px;line-height:20px;font-family:Arial, Helvetica, sans-serif;font-size:16px;color:#000000;" class="resizepadding">
+                                        <a href="https://www.smart.mercedes-benz.com/fr/fr/home#cars-can-be-good-intro" target=""_blank><img src="img/smart.png" width="61" height="16" alt="Smart" style="display: block;border:none;"></a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+            <!-- FIN BLOCK TXT ET CTA -->
+        </tr>
+
+
+        <tr>
+            <!-- FOOTER -->
+            <td bgcolor="#ffffff" align="center" style="padding: 0 0px 0px 0;">
+                <!--[if (gte mso 9)|(IE)]>
+            <table align="center" border="0" cellspacing="0" cellpadding="0" width="640">
+            <tr>
+            <td align="center" valign="top" width="640">
+            <![endif]-->
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" style="max-width: 640px;" class="responsive-table">
+                    
+                    <tr>
+                        <td>
+                            <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#ffffff">
+                                <tr>
+                                    <td align="justify" valign="top" style="padding:25px 15px;vertical-align:top;line-height:18px;font-family: Arial, Helvetica, sans-serif;font-size:14px;color:#777777;text-align:justify;border-top:1px solid #000000;">
+                                        © 2024, <span style="color: #ff00cc;">Nom du Distributeur</span><br><br>
+                                        Pour les trajets courts, privilégiez la marche ou le vélo. Pensez à covoiturer. Au quotidien, prenez les transports en commun. #SeDéplacerMoinsPolluer<br><br>
+                                        (*) Offre valable du 01/10/2024 au 31/03/2025 pour les clients possesseurs d’un modèle Classe A / Classe B / CLA /GLA / GLB dont la date de première mise en circulation est avant le 01/01/2020. 4ème service offert pour tout achat de 3 services en contrat Service Care. Le tarif applicable sera celui en vigueur à la date de conclusion du contrat service.<br><br>
+
+                                        Les véhicules concernés sont ceux de la marque smart commercialisés en France métropolitaine. Les caractéristiques des contrats et leurs tarifs sont modifiables sans préavis. Le tarif applicable sera celui en vigueur à la date de conclusion du contrat service. La vente du contrat est soumise aux conditions générales de vente du Contrat Service de Mercedes-Benz France. Pour en savoir plus sur les conditions d’application des Contrats Service Mercedes-Benz France, rapprochez-vous de votre Distributeur et/ou Réparateur Agréé smart.<br><br>
+
+                                        
+                                        Vous pouvez exercer ces droits en vous adressant à <span style="color: #ff00cc;">Nom du Distributeur</span> - Délégué à la Protection des Données - <span style="color: #ff00cc;">adresse postale du distributeur <span style="color: #777777;">ou en transmettant votre demande à</span> adresse email du distributeur.</span><br><br>
+                                        <span style="color: #ff00cc;">Raison Sociale – RCPS – Capital du Réparateur Agréé<br>
+                                        Si utilisation du fichier SIV, inclure vos mentions RGPD.</span><br><br>
+
+
+                                        <span style="color: #777777;">Pour vos d&#233;sabonner, cliquez <a href="#" target="_blank" style="text-decoration:underline;color:#777777;">
+                                                <font color="#777777">ici</font></a>.</span>
+                                            </a>
+                                    </td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <!--[if (gte mso 9)|(IE)]>
+            </td>
+            </tr>
+            </table>
+            <![endif]-->
+            </td>
+            <!-- FIN FOOTER-->
+        </tr>
+
+    </table>
+</body>
+
+</html>
