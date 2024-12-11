@@ -1,0 +1,188 @@
+<!DOCTYPE html><html lang="en" dir="ltr"><head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- CSS Links -->
+  <link rel="stylesheet" href="4d5a7e4c-b2d2-43f3-9093-b52720692dc5.css" inline="">
+  <link rel="stylesheet" href="a7ca1797-0e73-46a0-847d-1fff91e1b23e.css" inline="">
+  <link rel="stylesheet" href="55d33683-da2f-48b5-8d72-684ede511b88.css" inline="">
+  <link rel="stylesheet" href="089d471c-0e4e-4661-97e0-76e826bf3317.css" inline="">
+  <link rel="stylesheet" href="14016b29-5fee-4241-aeae-3ce4c03a8c9b.css" inline="">
+  <link rel="stylesheet" href="ca88d153-3e12-461a-8b51-b57ca7880fed.css" inline="">
+  
+<!-- Greensock -->
+  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+
+  <!-- ClickTag value setup/fallback -->
+  <script type="text/javascript">
+    /* Main Link*/
+    // var clickTag = "#";
+  </script>
+
+  <title>Standard Chartered</title>
+
+</head>
+
+<body>
+  <div id="banner">
+    <div id="content">
+      <!-- Images -->
+      <div id="image_1" class="img">
+        <img src="f8a00ee6-4492-4d36-bcf7-3725ec2e00b4.jpg" alt="">
+      </div>
+      <div id="image_2" class="img hide">
+        <img src="979819c0-f7d2-4610-b88d-03c0b2e5b18a.jpg" alt="">
+      </div>  
+      <div id="image_3" class="img hide">
+        <img src="9b02516c-7435-4dc5-98b2-af9ed3c260c0.jpg" alt="">
+      </div>
+      <!-- Logo -->
+      <div id="trustmark_logo" class="img">
+        <img src="566cb2f8-53e9-4168-8283-33cf7034a517.png" alt="">
+      </div>
+      <div id="sc_logo" class="img">
+        <img src="9bba4f5a-b1ad-46a6-a0bb-adfba3b46164.png" alt="">
+      </div>
+      <!-- Text Area-->
+      <div id="headline" class="reg-text hide">
+          <span><img src="5ec8d5f2-fe51-4c7d-a128-7f075ff06155.svg"> </span>
+          <div class="headline-text">
+            <span style="color: rgb(255, 255, 255);">Say hello to the new Smart Credit Card</span>
+            <span> <img src="127ef39a-d978-45d8-bd54-6be7693a059b.svg"></span>
+          </div>
+      </div>
+      <div id="text_cta">       
+        <div id="subhead" class="hide" style="color: rgb(255, 255, 255);">Get up to S$280 cashback when you apply and spend S$200 in the first month.</div>
+        <div id="button" class="hide">
+          <span class="desktop_button" style="color: rgb(255, 255, 255);">Apply now &gt;</span>
+        </div>
+      </div>
+    </div>
+    <!-- Exit Link -->
+    <!-- <div id="exit_link"></div> -->
+  </div><!-- BANNER CONTAINER -->
+
+  <!--Font size overrrides for adZU (Hidden in banner) -->
+  <div id="font_size_override_headline" class="hide"></div>
+  <div id="font_size_override_subhead" class="hide"></div>
+
+
+
+<script type="text/javascript">
+    var element = {
+            banner: document.getElementById('banner'),
+            image_1: document.getElementById('image_1'),
+            image_2: document.getElementById('image_2'),
+            image_3: document.getElementById('image_3'),
+            trustmark_logo: document.getElementById('trustmark_logo'),
+            sc_logo: document.getElementById('sc_logo'),
+            headline: document.getElementById('headline'),
+            subhead: document.getElementById('subhead'),
+            button: document.getElementById('button'),
+            font_size_override_headline: document.getElementById('font_size_override_headline'),
+            font_size_override_subhead: document.getElementById('font_size_override_subhead'),
+            exit_link: document.getElementById('exit_link'),
+        }
+</script>
+<script type="text/javascript" src="9eba3f5a-420a-4622-b65c-d52c29dfd3e5.js" inline=""></script>
+<script type="text/javascript" src="71ad854b-7a30-4a5f-9412-e5d506b88cf1.js" inline=""></script>
+<script type="text/javascript" src="73430afb-efb3-4f88-aca6-e1cb3f6da216.js" inline=""></script>
+<script type="text/javascript">
+
+  ////////////
+  /// VARS ///
+  ////////////
+  var globalTimeline = {
+      delay: 0,
+      repeat: 0,
+      repeatDelay: 0,
+    }
+
+  function init() {
+
+    // var element = {
+    //   banner: document.getElementById('banner'),
+    //   headline: document.getElementById('headline'),
+    //   subhead: document.getElementById('subhead'),
+    //   font_size_override_headline: document.getElementById('font_size_override_headline'),
+    //   font_size_override_subhead: document.getElementById('font_size_override_subhead'),
+    //   exit_link: document.getElementById('exit_link'),
+    // }
+
+    //font-override for Headline
+    if (element.font_size_override_headline.innerHTML !== '') {
+    var newFontSize = parseInt(element.font_size_override_headline.innerHTML)
+    
+    console.log('element.font_size_override_headline: ' + newFontSize);
+
+    element.headline.style.fontSize = newFontSize +'px'
+    // element.disclaimer_text_2.style.fontSize = newFontSize +'px'
+    }
+    //font-override for Subhead
+      if (element.font_size_override_subhead.innerHTML !== '') {
+      var newFontSize = parseInt(element.font_size_override_subhead.innerHTML)
+      console.log('element.font_size_override_subhead: ' + newFontSize);
+      element.subhead.style.fontSize = newFontSize +'px'
+    }
+    
+
+    // textShrink(element.copy_1);
+    // textShrink(element.copy_2);
+    // textShrink(element.lockup_copy_1);
+    // textShrink(element.lockup_copy_2);
+    // textShrink(element.copy_4);
+    // textShrink(element.copy_5);
+
+    // element.lockup_copy_1.style.height = "auto";
+
+    // var globalTimeline = {
+    //   delay: 0,
+    //   repeat: 1,
+    //   repeatDelay: 0,
+    // }
+
+    /////////////////////////////////////////////////////////
+    /// GET THE BANNER SIZE TO LOAD THE CORRECT ANIMATION ///
+    /////////////////////////////////////////////////////////
+
+    var bannerSize = {
+      w: window.innerWidth,
+      h: window.innerHeight
+    }
+
+    console.log('bannerSize: ', bannerSize)
+
+    if (bannerSize.w == 160 && bannerSize.h == 600) {
+      console.log('THIS IS 160x600');
+      animation_160x600()
+
+    } else if (bannerSize.w == 300 && bannerSize.h == 250) {
+      console.log('THIS IS 300x250');
+      animation_300x250()
+
+    }  else if (bannerSize.w == 728 && bannerSize.h == 90) {
+      console.log('THIS IS 728x90');
+      animation_728x90()
+
+    }  
+    
+
+    ////////////////////
+    /// EXIT HANDLER ///
+    ////////////////////
+
+    function exitLink() {
+      console.log('exit Clicked')
+      window.open(clickTag, "_blank")
+    }
+    element.exit_link.addEventListener("click", exitLink); //Desktop
+
+  }
+
+  //Run the banner with a 1/10th of a second delay to queue the JS after onLoad()
+  setTimeout(() => {
+    init()
+  }, 100);
+</script>
+
+</body><!-- Text Shrink script if needed --></html>

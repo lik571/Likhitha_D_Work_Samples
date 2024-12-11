@@ -1,0 +1,85 @@
+@media screen and (max-width: 165px) and (max-height: 605px) and (min-width: 155px) and (min-height: 595px) {
+
+    #banner {
+        width: 160px;
+        height: 600px;
+    }
+
+    #trustmark_logo img{
+        position: relative;
+        left: 20px;
+        top: 20px;
+        height: 48px;
+        width: 30px;
+    } 
+    #sc_logo img{
+        position: absolute;
+        right: 16px;
+        top:30px;
+        height: 26px;
+        width: 78px;
+    } 
+
+    #image_1 img, #image_2 img, #image_3 img{
+        position: absolute;
+        top:0px;
+        left:0px;
+        width: 160px; 
+        height: 600px;
+        overflow: hidden;
+    }
+    
+    #headline{
+        position:absolute; 
+        text-align:left; 
+        width: 103px; 
+        top: 114px; 
+        left: 11px;         
+    }
+    .headline-text {
+        position: fixed; 
+        text-align:left; 
+        width: 120px; 
+        top: 110px; 
+        left: 11px; 
+        margin-left: 15px; 
+        font-size: 18px; 
+        line-height: 28px;    
+    }
+    #text_cta {
+        position: absolute;
+        text-align: left;
+        left:11px;
+        top: 110px;
+        padding: 0px 12px;
+        /* text-transform: uppercase; */
+    }
+
+    #subhead{
+       margin: 4px 0px 15px 0px;
+       font-size: 18px;
+       line-height: 28px;
+    }
+
+    .desktop_button {
+        border: 1px solid #ffffff;
+        padding: 7px 14px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 25px;
+        font-size: 12px;
+        font-weight: 700;
+        margin-top: 20px;
+        position: absolute;
+    }
+
+    .mobile_button {
+        display: none;
+    } 
+    #button{
+        position: absolute;
+        bottom: 12px;
+        width: 100%;
+    }
+}
