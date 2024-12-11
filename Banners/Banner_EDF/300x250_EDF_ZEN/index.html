@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Jaldi:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script>
+      document.write('<script src="'+ (window.API_URL || 'https://s1.adform.net/banners/scripts/rmb/Adform.DHTML.js?bv='+ Math.random()) +'"><\/script>');
+  </script>
+</head>
+<body>
+  <div id="container">
+      <img src="images/logo.png" alt="" id="logo" width="73">
+      <img src="images/logobig.png" alt="" id="logoBig" width="103" height="44">
+
+
+      <div id="txt">
+        <div class="first">
+          Une offre d'électricité <br>
+
+        </div>
+        <div class="second draw" id="draw">
+          <span class="l1"></span>
+          <span class="l2"></span>
+          <span class="l3"></span>
+          <span class="l4"></span>
+          <div id="backColor"></div>
+          100% en ligne ?
+        </div>
+        <div class="first">
+        </div>
+      </div>
+
+      <img src="images/picto2.png" alt="" id="picto2">
+
+      <img src="images/back.jpg" alt="" id="back">
+      <div id="txt2">
+        <div class="first">
+Rien de plus simple avec <br>
+        </div>
+
+        <div class="second draw" id="draw2">
+          <span class="l1"></span>
+          <span class="l2"></span>
+          <span class="l3"></span>
+          <span class="l4"></span>
+          <div id="backColor2"></div>
+          Zen Online d’EDF
+        </div>
+        <div class="first">
+        </div>
+      </div>
+      <div id="txt3">
+        <div class="first">
+
+Ouvrez et gérez votre contrat
+
+
+        </div>
+        <div class="second draw" id="draw3">
+          <span class="l1"></span>
+          <span class="l2"></span>
+          <span class="l3"></span>
+          <span class="l4"></span>
+          <div id="backColor3"></div>
+        où et quand vous le voulez
+        </div>
+      </div>
+
+      <div id="ml">L&#39;&eacute;nergie est notre avenir, &eacute;conomisons-la !</div>
+      <div id="ml2">*Offre sous conditions. Plus d&#39;informations sur particulier.edf.fr</div>
+
+      <img src="images/cta.png" alt="" id="cta" width="164" height="104">
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.1.2/TweenMax.min.js"></script>
+  <script src="main.js" charset="utf-8"></script>
+
+  <script>
+ var clickArea = document.getElementById('container');
+
+ clickTAGvalue = dhtml.getVar('clickTAG', '');
+ landingpagetarget = dhtml.getVar('landingPageTarget', '_blank');
+
+ clickArea.onclick = function() {
+ window.open(clickTAGvalue,landingpagetarget);
+ }
+</script>
+</body>
+</html>

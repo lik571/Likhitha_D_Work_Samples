@@ -1,0 +1,21 @@
+{
+    "version": "1.0",
+
+    "title": "300x600_EDF_ZEN",
+    "description": "300x600_EDF_ZEN",
+
+    "width" : "300",
+    "height": "600",
+
+    "events": {
+        "enabled": 1,
+        "list": {
+        }
+    },
+
+    "clicktags": {
+        "clickTAG": "https://www.google.fr/"
+    },
+
+    "source": "index.html"
+}
